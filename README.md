@@ -23,19 +23,19 @@ This repository demonstrates a Python-based approach to perform image augmentati
    cd Image-Augmentation-with-Recognition
 2. Install the required libraries:
    ```
-   pip install 
-   ```
-
-## Usage
-1. Add your dataset of images to the data folder.
-2. Run the augmentation script to preprocess images:
-   ```
    pip install tensorflow
    pip install opencv-python
    pip install numpy
    pip install matplotlib
    pip install scikit-learn
    pip install pandas
+   ```
+
+## Usage
+1. Add your dataset of images to the data folder.
+2. Run the augmentation script to preprocess images:
+   ```
+   python augment_images.py
    ```
 3. Train the recognition model using:
    ```
