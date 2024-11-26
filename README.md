@@ -43,7 +43,7 @@ This repository demonstrates a Python-based approach to perform image augmentati
    ```
 5. Run index.html using:
    ```
-   python index.py
+   python index.html
    ```
 
 ## Project Structure
