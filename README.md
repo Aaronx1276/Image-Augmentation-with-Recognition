@@ -33,17 +33,17 @@ This repository demonstrates a Python-based approach to perform image augmentati
 
 ## Usage
 1. Add your dataset of images to the data folder.
-2. Run the augmentation script to preprocess images:
+2. Run the app.py to preprocess images:
    ```
-   python augment_images.py
+   python app.py
    ```
-3. Train the recognition model using:
+3. Run the recognition model using:
    ```
-   python train_model.py
+   python recognition.py
    ```
-5. Test the model using:
+5. Run index.py using:
    ```
-   python test_model.py
+   python index.py
    ```
 
 ## Project Structure
