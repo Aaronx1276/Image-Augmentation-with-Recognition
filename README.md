@@ -47,8 +47,8 @@ This repository demonstrates a Python-based approach to perform image augmentati
    ```
 
 ## Project Structure
-- index.py - This `HTML` file creates a webpage for image augmentation with options like rotation, grayscale, blur, brightness, contrast adjustments, and resizing (e.g., passport or stamp size). It uses JavaScript and a `<canvas>` element to apply operations dynamically and displays the augmented images in the browser.
-- recognition.py - This `HTML` file creates a webpage that allows users to upload an image, display it, and use the MobileNet model (via TensorFlow.js) to classify the image and display recognition results on the page.
+- index.html - This `HTML` file creates a webpage for image augmentation with options like rotation, grayscale, blur, brightness, contrast adjustments, and resizing (e.g., passport or stamp size). It uses JavaScript and a `<canvas>` element to apply operations dynamically and displays the augmented images in the browser.
+- recognition.html - This `HTML` file creates a webpage that allows users to upload an image, display it, and use the MobileNet model (via TensorFlow.js) to classify the image and display recognition results on the page.
 - app.py - The `app.py` file is a Flask application that uploads images, applies horizontal flip augmentation using OpenCV, and displays the original and augmented images via HTML templates.
 - Dataset - Data to perform augmentation and recognition.
 
