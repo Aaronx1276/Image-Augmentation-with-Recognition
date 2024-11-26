@@ -39,9 +39,9 @@ This repository demonstrates a Python-based approach to perform image augmentati
    ```
 3. Run the recognition model using:
    ```
-   python recognition.py
+   python recognition.html
    ```
-5. Run index.py using:
+5. Run index.html using:
    ```
    python index.py
    ```
